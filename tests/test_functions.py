@@ -21,11 +21,11 @@ def test_slow_add_test():
     assert result == 3
 
 
-@pytest.mark.skip(reason="This feature is broken")
+@pytest.mark.skip(reason='This feature is broken')
 def test_skip_test():
     pass
 
 
-@pytest.mark.xfail(reason="We know we cannot divide by 0")
+@pytest.mark.xfail(reason='We know we cannot divide by 0')
 def test_divide_by_zero_is_broken():
     functions.divide(1 / 0)
