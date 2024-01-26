@@ -46,5 +46,20 @@ def hermione_granger():
 
 
 @pytest.fixture
+def luna_lovegood():
+    return school.Student("Luna Lovegood")
+
+
+@pytest.fixture
 def mcgonagall():
     return school.Teacher("Minerva McGonagall")
+
+
+@pytest.fixture
+def mcgonagall():
+    return school.Teacher("Minerva McGonagall")
+
+
+@pytest.fixture
+def flitwick():
+    return school.Teacher("Filius Flitwick")

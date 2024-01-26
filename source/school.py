@@ -17,7 +17,7 @@ class Classroom:
 
     def remove_student(self, name):
         for student in self.students:
-            if student.name == name:
+            if student == name:
                 self.students.remove(student)
                 break
 
